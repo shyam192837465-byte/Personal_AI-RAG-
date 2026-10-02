@@ -1,0 +1,20 @@
+# Personal AI Assistant Knowledge Base
+
+## Overview
+The Personal AI Assistant is a high-performance, enterprise-grade AI architecture designed for real-time document analysis, question answering, and contextual reasoning.
+
+## Technology Stack
+- **Frontend**: React 18+, TypeScript, Tailwind CSS, Framer Motion for micro-interactions, Lucide Icons.
+- **Backend**: Python 3.10+, FastAPI, LangChain (Modern LCEL Architecture), ChatGroq with LLaMA-3.3-70B-Versatile, MongoDB Atlas Vector Search.
+- **Embedding Model**: all-MiniLM-L6-v2 (Sentence Transformers) providing 384-dimensional dense semantic vectors.
+
+## Key Features
+1. **Modern LCEL Chains**: Built with `create_stuff_documents_chain` and `create_retrieval_chain` to replace legacy `RetrievalQA`.
+2. **Server-Sent Events (SSE)**: Ultra-low latency streaming of LLM tokens with real-time source citations.
+3. **Dual Vector Search Engine**: Hybrid indexing that connects to MongoDB Atlas Vector Search and gracefully falls back to a high-speed local memory vector store when offline.
+4. **Resilient UI**: Incorporates AbortController for instantaneous stream cancellation, exponential backoff retries on network failures, and keyboard accessibility (Shift+Enter multiline, Enter send).
+
+## Instructions for Users
+- You can upload PDF, TXT, and Markdown files through the Knowledge Drawer on the top right.
+- You can configure custom system prompts, temperature sliders, and your own Groq API keys in the Settings Modal.
+- The assistant automatically parses your uploaded documents and provides inline citation badges for every referenced source.

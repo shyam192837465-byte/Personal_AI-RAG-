@@ -1,0 +1,37 @@
+{
+  "assistant_knowledge.txt": {
+    "source": "assistant_knowledge.txt",
+    "chunks": 3,
+    "type": "TXT",
+    "size": 1601,
+    "created_at": "2026-08-18T17:12:36.670083+00:00"
+  },
+  "Shyam.pdf": {
+    "source": "Shyam.pdf",
+    "chunks": 7,
+    "type": "PDF",
+    "size": 364245,
+    "created_at": "2026-08-18T17:12:43.428824+00:00"
+  },
+  "helios_spec.md": {
+    "source": "helios_spec.md",
+    "chunks": 1,
+    "type": "TEXT",
+    "size": 134,
+    "created_at": "2026-08-17T04:58:29.233601+00:00"
+  },
+  "Profile.pdf": {
+    "source": "Profile.pdf",
+    "chunks": 3,
+    "type": "PDF",
+    "size": 38264,
+    "created_at": "2026-08-18T17:33:25.378715+00:00"
+  },
+  "Vikas_T_K_Resume.pdf": {
+    "source": "Vikas_T_K_Resume.pdf",
+    "chunks": 10,
+    "type": "PDF",
+    "size": 155070,
+    "created_at": "2026-10-02T06:53:27.616219+00:00"
+  }
+}
